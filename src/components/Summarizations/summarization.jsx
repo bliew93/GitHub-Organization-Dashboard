@@ -4,7 +4,7 @@ class Summarization extends React.Component {
   constructor(props) {
     super(props);
   }
-  debugger;
+
   render() {
     let mostStars = this.props.repos
       .sort((a, b) => {
